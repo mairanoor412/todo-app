@@ -1,0 +1,116 @@
+.heading {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media (min-width: 576px) {
+    .heading {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 768px) {
+    .heading {
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .heading {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .heading {
+        font-size: 50px;
+        font-weight: 700;
+    }
+}
+
+/* input field */
+.input {
+    width: 200px !important;
+    height: 50px !important;
+}
+
+@media (min-width: 768px) {
+    .input {
+        width: 300px !important;
+        height: 45px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .input {
+        width: 350px !important;
+        height: 47px !important;
+    }
+}
+
+/* date and time text size */
+.text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .text {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+/* input field */
+.inputs {
+    padding-bottom: 40px;
+}
+
+/* List input */
+.item-list {
+    height: 57px;
+    border-radius: 30px !important;
+    position: relative;
+}
+
+/* delete item */
+.delete {
+    position: absolute;
+    top: 13px;
+    /* adjust vertically */
+    right: 18px;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    font-size: 1px !important;
+    cursor: pointer;
+}
+
+/* tick item */
+.tick {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 14px;
+    /* adjust vertically */
+    right: 65px;
+    background-color: green;
+    font-size: 5px !important;
+    cursor: pointer;
+
+}
+
+/* clear all button */
+.btn-color {
+    background-color: red !important;
+}
+
+/*item list */
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
