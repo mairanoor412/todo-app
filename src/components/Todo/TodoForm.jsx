@@ -10,7 +10,6 @@ export const TodoForm = ({ task, setTask, handleTask, inputRef }) => {
                     <input
                         ref={inputRef}
                         onChange={(e) => setTask(e.target.value)}
-                        readOnly
                         value={task}
                         type="text"
                         placeholder="Enter your items..."
